@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+body {
+    background: url('home6.jpg') no-repeat center center fixed;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover; */
+    background-size: cover;
+    /* -o-background-size: cover; */
+  }
+  .font{
+    font-family: 'Yeon Sung', cursive;
+  }
+  .size{
+      font-size: 64px;
+  }
+  .aboutSize{
+      font-size:28px;
+  }
+  div.transbox
+  {
+    width: 95%;
+    height: 80%;
+    margin:30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    /* for IE */
+    filter:alpha(opacity=60);
+    /* CSS3 standard */
+    opacity:0.6;
+  }
+  
+  div.transbox p
+  {
+    margin: 30px 40px;
+  }

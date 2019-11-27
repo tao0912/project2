@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Staatliches|Titillium+Web&display=swap');
+.size{
+    font-size: 60px;
+}
+.text{
+    color:brown;
+}
+.container
+{
+    display: flex;
+    flex-direction:column;
+}
+.font
+{
+    font-family: 'Staatliches', cursive;
+}
+.left{
+    width: 50%;
+    text-align: left;
+    display:inline-block;
+}
+.right{
+    text-align:right;
+    width:50%;
+}
+@media only screen and (max-width:768px)
+{
+    .left,.right{
+        display: block;
+        width:100;
+    }
+}
+ body {
+    background: url('catalog2.jpg') no-repeat center center fixed;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+      filter:alpha(opacity=100);
+  } 
+  div
+  {  
+    opacity:0.5;
+      filter:alpha(opacity=100);
+
+  }
+div:hover
+{
+    opacity:1;
+    filter:alpha(opacity=100);
+} 
+.pic{
+    width:150px;
+    height:175px;
+}
